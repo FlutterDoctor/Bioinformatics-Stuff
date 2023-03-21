@@ -1,0 +1,395 @@
+# 30 day study plan:
+
+**Week 1: Fundamentals of Biology and Bioinformatics**
+
+**Day 1:**
+
+- Understand the basics of molecular biology: DNA, RNA, and proteins
+    
+    **DNA**
+    
+    - DNA stands for deoxyribonucleic acid.
+    - It is a molecule that carries genetic information.
+    - DNA is made up of four nucleotide bases: adenine (A), cytosine(C), guanine (G) and thymine (T).
+    - The sequence of these bases determines the genetic code.
+    
+    **RNA**
+    
+    - RNA stands for ribonucleic acid.
+    - It is a molecule that helps to carry out the instructions in DNA.
+    - RNA is made up of four nucleotide bases: adenine (A), cytosine(C), guanine (G) and uracil (U).
+    - There are several types of RNA, including messenger RNA (mRNA), transfer RNA (tRNA), ribosomal RNA (rRNA) and small nuclear RNA (snRNA).
+    
+    **Proteins**
+    
+    - Proteins are large molecules made up of amino acids.
+    - They perform a wide variety of functions in the body, including catalyzing metabolic reactions, replicating DNA, responding to stimuli and transporting molecules.
+- Familiarize yourself with central dogma and the genetic code
+    
+    **Central Dogma**
+    
+    - The central dogma of molecular biology explains the flow of genetic information within a biological system.
+    - It states that DNA codes for RNA, which codes for proteins.
+    - This process involves two main steps: transcription and translation.
+    - In transcription, the genetic code in DNA is transcribed into RNA.
+    - In translation, this RNA is then translated into proteins.
+    
+    **Genetic Code**
+    
+    - The genetic code is the set of rules by which information encoded in DNA is translated into proteins.
+    - It is a triplet code, meaning that each amino acid is specified by a sequence of three nucleotide bases (codon).
+    - There are 64 possible codons (4^3), but only 20 amino acids. This means that most amino acids are specified by more than one codon.
+
+**Day 2:**
+
+- Study gene structure and function: transcription, translation, and regulation
+    - [The regulated transcription of genes determines cell identity and function **1**](https://www.nature.com/articles/s41586-019-1517-4/).
+    - [Gene expression involves multiple levels of regulation and is often influenced by transcription factors **2**](https://www.britannica.com/science/gene).
+    - [Transcription factors can function as activators or enhancers **2**](https://www.britannica.com/science/gene).
+    - [Transcription takes place in three stages: initiation, elongation, and termination **3**](https://www.khanacademy.org/science/ap-biology/gene-expression-and-regulation/transcription-and-rna-processing/a/overview-of-transcription).
+- Learn about genome organization and sequencing
+    - **Genome organization** refers to the linear order of DNA elements and their division into chromosomes. [It can also refer to the 3D structure of chromosomes and the positioning of DNA sequences within the nucleus**1**](https://en.wikipedia.org/wiki/Genomic_organization).
+    - [A **genome** is the complete set of DNA sequences in an organism and contains all of the instructions required for that organism to function**2**](https://institute.global/policy/what-genomic-sequencing-and-why-does-it-matter-future-health).
+    - [The **Genome Sequencing Program** was initially created to sequence the human genome, as part of the Human Genome Project**3**](https://www.genome.gov/Funded-Programs-Projects/NHGRI-Genome-Sequencing-Program).
+    - [There are many methods for analyzing 3D genome organization, including sequencing-based techniques such as Hi-C and its derivatives, Micro-C, DamID, etc., as well as microscopy-based techniques**4**](https://www.nature.com/articles/s41580-021-00362-w).
+
+**Day 3:**
+
+- Understand protein structure and function, including primary, secondary, tertiary, and quaternary structures
+    
+    **Protein Structure and Function**
+    
+    - Proteins are made up of long chains of amino acids.
+    - The arrangement and placement of amino acids give proteins certain characteristics.
+    
+    **Levels of Protein Structure**
+    
+    1. **Primary structure**: A simple linear chain of amino acids (also known as a polypeptide chain).
+    2. **Secondary structure**: Determined by the angles of the covalent bonds between and within amino acids.
+    3. **Tertiary structure**: Determined largely by attraction between different parts of the molecule.
+    4. **Quaternary structure**: Refers to how multiple polypeptide chains come together to form a functional protein.
+- Familiarize yourself with protein-protein interactions and protein-DNA interactions
+    
+    **Protein-DNA Interactions**
+    
+    - **Role in biological processes**: Protein-DNA interactions play a significant role in many biological processes such as regulation of gene expression, DNA replication, repair, transcription, recombination and packaging of chromosomal DNA.
+    - **Types of interactions**: Proteins interact with DNA through electrostatic interactions (salt bridges), dipolar interactions (hydrogen bonding), entropic effects (hydrophobic interactions) and dispersion forces (base stacking).
+
+**Day 4:**
+
+- Learn about biological databases (e.g., NCBI, Ensembl, UniProt)
+    
+    **Biological Databases:**
+    
+    - **NCBI**, **UniProt**, and **Ensembl** are examples of biological databases.
+    - These databases integrate a vast number of biological data from various public resources.
+    - They provide a queryable interface to all the data available and can convert identifiers from one database into another .
+- Understand how to access and analyze data from these databases using APIs or web interfaces
+    - [To access and analyze data from databases using APIs or web interfaces, you can use API to extract data and save it in a dataframe](https://www.analyticsvidhya.com/blog/2021/05/how-to-fetch-data-using-api-and-sql-databases/)
+    . [APIs allow communication between an application and a database management system](https://blog.dreamfactory.com/understanding-the-connection-between-databases-and-apis/)
+    . [You can also build programs that run searches on the data the server is hosting and transform that information into a different, usable format](https://technologyadvice.com/blog/information-technology/how-to-use-an-api/).
+
+**Day 5:**
+
+- Get started with sequence alignment: global, local, and multiple alignments
+    
+    **Sequence Alignment:**
+    
+    - Used to find regions of similarity between two or more sequences.
+    
+    **Types of Sequence Alignment:**
+    
+    1. **Global Alignment:**
+        - Tries to find the best overall alignment between sequences.
+        - A common global alignment algorithm is Needleman-Wunsch algorithm.
+    2. **Local Alignment:**
+        - Focuses on finding the best alignment between two segments of the sequences.
+    
+    **Multiple Sequence Alignments:**
+    
+    - Aligns more than one sequence at a time.
+    - Can use either global or local alignments.
+- Learn about popular alignment tools, such as BLAST, Clustal Omega, and MUSCLE
+    - **Clustal Omega** is a fast and accurate aligner suitable for alignments of any size. [It uses mBed guide trees and pair HMM-based algorithm which improves sensitivity and alignment quality **1**](https://help.geneious.com/hc/en-us/articles/360044627712-Which-multiple-alignment-algorithm-should-I-use-).
+    - **[MUSCLE** is claimed to achieve both better average accuracy and better speed than ClustalW2 or T-Coffee, depending on the chosen options **2**](https://www.ebi.ac.uk/Tools/msa/muscle/).
+    - [The **Multiple Sequence Alignment Viewer application (MSA)** is a web application that visualizes alignments created by programs such as MUSCLE or CLUSTAL, including alignments from NCBI BLAST results **3**](https://www.ncbi.nlm.nih.gov/tools/msaviewer/tutorial1/).
+
+**Day 6:**
+
+- Introduction to phylogenetics and its applications in bioinformatics
+    
+    [Phylogenetics is the study of evolutionary relationships among biological entities – often species, individuals or genes (which may be referred to as taxa)**1**](https://www.ebi.ac.uk/training/online/courses/introduction-to-phylogenetics/what-is-phylogenetics/). [Phylogenetic analysis refers to the evolutionary study of organisms forming a tree called a phylogenetic tree**2**](https://www.biocode.ltd/post/phylogenetic-analysis-in-bioinformatics). [A phylogenetic tree is a visual representation of the relationship between different organisms, showing the path through evolutionary time from a common ancestor to different descendants**2**](https://www.biocode.ltd/post/phylogenetic-analysis-in-bioinformatics).
+    
+    Phylogenetics based on sequence data provides us with more accurate descriptions of patterns of relatedness than was available before molecular sequencing. Phylogenetics now informs the Linnaean classification of new species**[3](https://www.ebi.ac.uk/training/online/courses/introduction-to-phylogenetics/why-is-phylogenetics-important/)**.
+    
+- Learn about tree-building methods and phylogenetic software (e.g., MEGA, RAxML)
+    - [RAxML (Randomized Axelerated Maximum Likelihood) is a program for sequential and parallel Maximum Likelihood based inference of large phylogenetic trees**1**](http://www.trex.uqam.ca/index.php?action=raxml).
+    - [MEGA is an easy-to-use software with multiple features including aligning sequences, estimating evolutionary distances, building trees using several methods, testing tree reliability, marking genes/domains, testing for selection and computing sequence statistics**2**](http://barc.wi.mit.edu/education/hot_topics/mega/mega.pdf).
+
+**Day 7:**
+
+- Review Week 1 material and practice using online resources or real-life datasets
+
+**Week 2: Programming for Bioinformatics and Data Analysis**
+
+**Day 8:**
+
+- Learn Python for bioinformatics: essential libraries (NumPy, Pandas, Biopython, and Matplotlib)
+    1. **[NumPy** is an array manipulation library that is behind libraries such as Pandas, Matplotlib, Biopython, and scikit-learn**1**](https://subscription.packtpub.com/book/business-and-other/9781803236421/2/ch02lvl1sec11/understanding-numpy-as-the-engine-behind-python-data-science-and-bioinformatics). It provides efficient array and matrix support**[2](https://www.oreilly.com/library/view/bioinformatics-with-python/9781803236421/B17942_02.xhtml)**.
+    2. **Pandas** (Python data analysis) is a must in the data science life cycle. [It is heavily used for data analysis and cleaning**3**](https://www.simplilearn.com/top-python-libraries-for-data-science-article).
+    3. **Biopython** is a set of freely available tools for biological computation written in Python by an international team of developers. It addresses the needs of current and future work in bioinformatics**[4](https://biopython.org/)**.
+    4. **Matplotlib** is a plotting library that works hand-in-hand with NumPy.
+
+**Day 9:**
+
+- Get started with Python for bioinformatics: essential libraries (Bioconductor, ggplot2, and dplyr)
+    - **[Bioconductor** is a collection of R packages that can be used directly from Python via rpy2 or similar**1**](https://bioinformatics.stackexchange.com/questions/13237/using-bioconductor-from-python). [It provides tools for the analysis and comprehension of high-throughput genomic data**2**](https://pubmed.ncbi.nlm.nih.gov/21210978/).
+    - **ggplot2** is a system for declaratively creating graphics based on The Grammar of Graphics. [You provide the data, tell ggplot2 how to map variables to aesthetics, what graphical primitives to use, and it takes care of the details**3**](https://www.tidyverse.org/packages/).
+    - **[dplyr** is a fast and consistent tool for working with data frame-like objects both in memory and out of memory**4**](https://cran.r-project.org/web/packages/dplyr/index.html).
+- Practice data manipulation and visualization with Python
+    - [Data visualization is a crucial aspect of data analysis as it helps in understanding data better. Python provides several libraries for data visualization such as **pandas**, **matplotlib**, and **seaborn**](https://lukmanaj.medium.com/python-data-visualization-exploring-data-with-pandas-matplotlib-and-seaborn-a0edd5aa6014)
+    . [You can learn how to import, clean, and visualize data using these powerful libraries](https://medium.com/@ercanintech/mastering-data-manipulation-and-visualization-with-python-in-2023-a-beginners-guide-c2650289121a)
+
+**Day 10:**
+
+- Understand the basics of high-throughput sequencing data (RNA-Seq, ChIP-Seq, and Whole-Exome Sequencing)
+    
+    High-throughput sequencing data refers to data generated by high-throughput sequencing technologies such as RNA-Seq, ChIP-Seq, and Whole-Exome Sequencing.
+    
+    **RNA-Seq** (RNA-sequencing) is a technique that can examine the quantity and sequences of RNA in a sample using next-generation sequencing (NGS). [It analyzes the transcriptome, indicating which of the genes encoded in our DNA are turned on or off and to what extent](https://www.technologynetworks.com/genomics/articles/rna-seq-basics-applications-and-protocol-299461).
+    
+    **ChIP-Seq** (Chromatin Immunoprecipitation Sequencing) is a method used to analyze protein interactions with DNA. ChIP-seq combines chromatin immunoprecipitation (ChIP) with massively parallel DNA sequencing to identify the binding sites of DNA-associated proteins. [It can be used to map global binding sites precisely for any protein of interest](https://en.wikipedia.org/wiki/ChIP_sequencing).
+    
+    **Whole Exome Sequencing (WES)** is a genomic technique for sequencing all of the protein-coding regions of genes in a genome (known as the exome). [It consists of two steps: selecting only the subset of DNA that encodes proteins and then sequencing it](https://en.wikipedia.org/wiki/Exome_sequencing).
+    
+- Learn about the file formats used in bioinformatics (FASTA, FASTQ, SAM/BAM, and VCF)
+    - **FASTA**: A text-based format for representing nucleotide or peptide sequences. [The sequence is represented in a single line preceded by a description line starting with '>'](https://bioinformatics.uconn.edu/resources-and-events/tutorials-2/file-formats-tutorial/).
+    - **FASTQ**: A text-based format for storing both a biological sequence (usually nucleotide sequence) and its corresponding quality scores. [Both the sequence letter and quality score are encoded with a single ASCII character for brevity](https://bioinformatics.uconn.edu/resources-and-events/tutorials-2/file-formats-tutorial/).
+    - **SAM/BAM**: SAM (Sequence Alignment Map) is a tab-delimited text format for storing sequence alignment data. [BAM (Binary Alignment/Map) is the compressed binary version of SAM, which stores the same data in a compressed, indexed, binary form](https://bioinformatics.uconn.edu/resources-and-events/tutorials-2/file-formats-tutorial/).
+    - **[VCF (Variant Calling Format/File)**: A text file format that contains information about variations found at specific positions in a reference genome](https://bioinformatics.uconn.edu/resources-and-events/tutorials-2/file-formats-tutorial/).
+
+**Day 11:**
+
+- Analyze RNA-Seq data: quality control, read mapping, and quantification
+    1. **Quality control**: It’s important to check the quality of your data before proceeding with analysis. This can be done using tools such as FastQC.
+    2. **Read mapping**: After quality control, reads need to be mapped (i.e., aligned) to a reference genome using programs such as TopHat or STAR.
+    3. **[Quantification**: The simplest approach to quantifying gene expression by RNA-seq is to count the number of reads that map (i.e., align) to each gene (read count) using programs such as HTSeq-count](https://www.ebi.ac.uk/training/online/courses/functional-genomics-ii-common-technologies-and-data-analysis-methods/rna-sequencing/performing-a-rna-seq-experiment/data-analysis/quantification/).
+- Learn about differential gene expression analysis using tools such as DESeq2 and edgeR
+    - Differential gene expression analysis is an important aspect of bulk RNA sequencing (RNAseq). [A lot of tools are available for this purpose, and among them **DESeq2** and **edgeR** are widely used](https://pubmed.ncbi.nlm.nih.gov/31028652/).
+     [DESeq2 provides methods to test for differential expression by use of negative binomial generalized linear models; the estimates of dispersion and logarithmic fold changes incorporate data-driven prior distributions](https://www.bioconductor.org/packages/devel/bioc/vignettes/DESeq2/inst/doc/DESeq2.html).
+
+**Day 12:**
+
+- Analyze ChIP-Seq data: quality control, peak calling, and motif analysis
+    - [ChIP-Seq analysis pipeline consists of several steps including raw data processing, quality control analysis, alignment to the reference genome, quality check of the aligned reads, peak calling, annotation and visualization](https://www.basepairtech.com/knowledge-center/chip-seq-analysis-tutorial/).
+    [Peak calling programs help define sites of Protein:DNA binding by identifying regions where sequence reads are enriched in the genome after mapping](https://epigenie.com/guide-peak-calling-for-chip-seq/).
+    . [Motif analysis can be performed using tools such as RSAT peak-motifs](https://link.springer.com/protocol/10.1007/978-1-4939-7380-4_17).
+- Learn about tools such as MACS2, HOMER, and MEME Suite
+    - **MACS2** is a tool for analyzing ChIP-seq data. [It can be installed from its page on PyPI](https://github.com/macs3-project/MACS/wiki/Install-macs2).
+    - **HOMER** is another tool for analyzing ChIP-seq data. [It uses Poisson distributions to generate background models prior to statistical testing for peak significance between ChIP and control samples](https://academic.oup.com/bib/article/23/1/bbab537/6489109).
+    - The **MEME Suite** is an integrated collection of tools for discovering and characterizing sequence motifs in collections of DNA or protein sequences. [Its flagship program is MEME, which finds motifs in unaligned collections of DNA and sequence motifs](https://techtransfer.universityofcalifornia.edu/NCD/20911.html).
+
+**Day 13:**
+
+- Analyze Whole-Exome Sequencing data: quality control, read mapping, and variant calling
+    1. **[Quality Control (QC)**: The first step of a variant calling pipeline involves evaluating the quality of raw sequencing data](https://www.basepairtech.com/knowledge-center/introduction-to-variant-calling-qc-alignment-deduplication-variant-annotation/).
+    2. **[Raw reads preprocessing**: This step is necessary for high-quality results](https://www.basepairtech.com/knowledge-center/tutorial-on-whole-exome-sequencing-analysis/).
+    3. **[Short reads mapping**: Mapping short reads is one of several steps in whole exome sequencing data analysis](https://www.basepairtech.com/knowledge-center/tutorial-on-whole-exome-sequencing-analysis/).
+    4. **[Post-alignment processing**: This step is also necessary for high-quality results](https://www.basepairtech.com/knowledge-center/tutorial-on-whole-exome-sequencing-analysis/).
+    5. **[Variant calling and annotation**: Variant calling is a crucial procedure for whole exome, targeted panels, and whole genome sequencing](https://www.basepairtech.com/knowledge-center/introduction-to-variant-calling-qc-alignment-deduplication-variant-annotation/).
+    6. **[Variant prioritization**: This step helps prioritize variants based on their relevance](https://www.basepairtech.com/knowledge-center/tutorial-on-whole-exome-sequencing-analysis/).
+- Learn about tools such as ANNOVAR
+    - • **ANNOVAR** is a variant annotator. [Given a vcf file from an unknown sample and existing data about genes, other known SNPs, gene variants, etc., ANNOVAR will place the discovered variants in context**1**](https://wikis.utexas.edu/display/bioiteam/Analyzing+Annovar+Annotation+Output+--+GVA2021). [It is one of the most powerful yet simple to run variant annotators available](https://wikis.utexas.edu/display/bioiteam/Analyzing+Annovar+Annotation+Output+--+GVA2021).
+
+**Day 14:**
+
+- Review Week 2 material and practice with real-life datasets
+
+**Week 3: Machine Learning and AI in Bioinformatics**
+
+**Day 15:**
+
+- Understand the basics of machine learning and AI, including supervised and unsupervised learning
+    - **[Artificial intelligence (AI)** refers to the general ability of computers to emulate human thought and perform tasks in real-world environments](https://ai.engineering.columbia.edu/ai-vs-machine-learning/).
+    - **[Machine learning** is a subset of AI that enables systems to identify patterns, make decisions, and improve themselves through experience and data](https://ai.engineering.columbia.edu/ai-vs-machine-learning/).
+    - [Machine learning algorithms allow AI to not only process data but also use it to learn and get smarter without needing any additional programming](https://www.sap.com/insights/what-is-machine-learning.html).
+- Learn about popular algorithms, such as linear regression, k-means clustering, and decision trees
+    - **Linear Regression**
+    . [It is a machine learning algorithm based on supervised learning that performs a regression task**1**](https://www.geeksforgeeks.org/ml-linear-regression/)
+    . [The algorithm uses independent variables to model a target prediction value and is mainly used for finding out the relationship between variables and forecasting](https://www.geeksforgeeks.org/ml-linear-regression/).
+    - **k-means clustering**. [It is one of the simplest and most popular unsupervised machine learning algorithms for data scientists**1**](https://www.nvidia.com/en-us/glossary/data-science/k-means/). [The algorithm is deployed to discover groups that haven’t been explicitly labeled within the data**1**](https://www.nvidia.com/en-us/glossary/data-science/k-means/).
+    - **[Decision trees**, on the other hand, are a non-parametric supervised learning algorithm utilized for both classification and regression tasks**2**](https://www.ibm.com/topics/decision-trees). [The algorithm has a hierarchical tree structure consisting of a root node, branches, internal nodes and leaf nodes**2**](https://www.ibm.com/topics/decision-trees).
+
+**Day 16:**
+
+- Dive into deep learning: neural networks, convolutional neural networks (CNNs), and recurrent neural networks (RNNs)
+    - [Deep learning is a subset of machine learning that includes deep neural networks, deep belief networks, and recurrent neural networks](https://medium.com/@sprhlabs/understanding-deep-learning-dnn-rnn-lstm-cnn-and-r-cnn-6602ed94dbff).
+    - [There are three fundamental architectures of neural network that perform well on different types of data: feedforward neural network (FFNN), recurrent neural network (RNN), and convolutional neural network (CNN)](https://medium.com/@sprhlabs/understanding-deep-learning-dnn-rnn-lstm-cnn-and-r-cnn-6602ed94dbff).
+    - [CNN is the most commonly used architecture for deep learning](https://www.sciencedirect.com/topics/engineering/convolutional-neural-network). [RNNs are a type of neural network that have feedback loops in the recurrent layer which allows them to maintain information in memory over time and process data sequentially](https://medium.com/@asifurrahmanaust/the-unseen-depths-of-rnn-lstm-the-power-of-deep-learning-in-nlp-5f29e04cd8ae).
+- Understand their applications in bioinformatics (e.g., protein structure prediction and gene expression analysis)
+    
+    Machine learning has many applications in bioinformatics. [For example, it can be used for protein structure prediction**1](https://pubmed.ncbi.nlm.nih.gov/22274898/)[2](https://www.sciencedirect.com/science/article/pii/S0959440X19301447)**, drug discovery**[3](https://pubs.acs.org/doi/10.1021/acsinfocus.7e5017)[4](https://www.nature.com/articles/s41573-019-0024-5)**, and gene expression analysis**[5](https://link.springer.com/chapter/10.1007/978-3-030-15628-2_3)[6](https://www.frontiersin.org/articles/10.3389/fgene.2020.603808/full)**.
+    
+    [In protein structure prediction, machine learning methods are widely used to predict the folded structure of a protein from its sequence information**1**](https://pubmed.ncbi.nlm.nih.gov/22274898/). [The most recent successes of machine learning for protein structure prediction arise with the application of deep learning to evolutionary information**2**](https://www.sciencedirect.com/science/article/pii/S0959440X19301447).
+    
+    [In drug discovery, machine learning approaches provide a set of tools that can improve discovery and decision making for well-specified questions with abundant, high-quality data**4**](https://www.nature.com/articles/s41573-019-0024-5). [Machine learning approaches provide tools and algorithms to improve drug discovery by effectively modeling many physicochemical properties of drugs like toxicity, absorption, drug-drug interaction, carcinogenesis, and distribution using QSAR techniques**7**](https://pubmed.ncbi.nlm.nih.gov/35426249/).
+    
+    [In gene expression analysis, a machine learning algorithm can be used for differential expression analysis by selecting genes that are more relevant for discriminating between different health outcomes (e.g., sick versus healthy patients)**5**](https://link.springer.com/chapter/10.1007/978-3-030-15628-2_3). [Machine learning-based feature selection approaches help to select required genes from large datasets while preserving informative attributes**6**](https://www.frontiersin.org/articles/10.3389/fgene.2020.603808/full).
+    
+
+**Day 17:**
+
+- Learn about natural language processing (NLP) techniques and their applications in biomedical text mining
+    - [Natural language processing (NLP) and text mining are branches of biomedical informatics that deal with processing prose for purposes such as extracting information and cohort retrieval](https://www.researchgate.net/publication/285181331_Biomedical_Natural_Language_Processing_and_Text_Mining).
+    [Biomedical text mining incorporates ideas from NLP, bioinformatics, medical informatics and computational linguistics.](https://en.wikipedia.org/wiki/Biomedical_text_mining)
+    [Text mining systems are powerful tools that automatically extract and integrate information in large textual collections](https://www.nature.com/articles/s41578-020-0215-z).
+- Practice using NLP libraries, such as NLTK, spaCy, and gensim
+    - **[NLTK** (Natural Language Toolkit) is one of the premier libraries for developing Natural Language Processing (NLP) models](https://www.upgrad.com/blog/python-nlp-libraries-and-applications/).
+    - **spaCy** is a new NLP library that’s designed to be fast, streamlined, and production-ready. [It’s not as widely adopted but it’s an excellent choice for building a new application](https://elitedatascience.com/python-nlp-libraries).
+    - **gensim** is most commonly used for topic modeling and similarity detection. [It also provides methods to remove stopwords](https://elitedatascience.com/python-nlp-libraries).
+
+**Day 18:**
+
+- Study network biology and graph-based methods in bioinformatics
+    - [Network biology is useful for modeling complex biological phenomena and has attracted attention with the advent of novel graph-based machine learning methods](https://academic.oup.com/bib/article/23/1/bbab437/6438103). [Graph neural networks (GNNs), as a branch of deep learning in non-Euclidean space, perform particularly well in various tasks that process graph structure data](https://www.researchgate.net/publication/353554598_Graph_Neural_Networks_and_Their_Current_Applications_in_Bioinformatics). [With the rapid accumulation of biological network data, GNNs have also become an important tool in bioinformatics](https://www.researchgate.net/publication/353554598_Graph_Neural_Networks_and_Their_Current_Applications_in_Bioinformatics).
+- Learn about graph databases (e.g., Neo4j) and graph algorithms (e.g., PageRank, community detection)
+    
+    **Graph Databases**
+    
+    - A graph database is a type of database that uses graph structures for semantic queries with nodes, edges, and properties to represent and store data.
+    - **[Neo4j** is a popular open-source graph database project that was first released in February 2010](https://www.sqlshack.com/getting-started-with-the-neo4j-graph-database/) .
+    - [Neo4j is a native graph database which means it implements a true graph model all the way down to the storage level](https://neo4j.com/docs/getting-started/current/get-started-with-neo4j/graph-database/) .
+    - [Neo4j provides ACID transactions, cluster support, runtime failover](https://neo4j.com/docs/getting-started/current/get-started-with-neo4j/graph-database/)[, robust transactional guarantee and unmatched reliability](https://neo4j.com/product/neo4j-graph-database/) .
+    
+    **Graph Algorithms**
+    
+    - Graph algorithms are used to evaluate how groups of nodes are clustered or partitioned.
+    - **[PageRank** algorithm measures the importance of each node within the graph based on incoming relationships and importance of corresponding source nodes **4**](https://neo4j.com/docs/graph-data-science/current/algorithms/page-rank/).
+    - **[Community detection** algorithms evaluate how groups of nodes are clustered or partitioned as well as their tendency to strengthen or break apart **5**](https://neo4j.com/docs/graph-data-science/current/algorithms/community/).
+
+**Day 19:**
+
+- Understand the basics of molecular docking and virtual screening for drug discovery
+    - Molecular docking and virtual screening are computational techniques used in drug discovery. [Structure-based virtual screening (SBVS), also known as molecular docking, has been increasingly applied to discover small-molecule ligands based on protein structures](https://www.bing.com/aclk?ld=e84BikyZyalETRET0KumZRpzVUCUz97OBO12mPooHXqIhF-GNOvfkibfZakNcSdAvcNjFU7I0wukMrpk_xhSXtdAD9D__6IoBhQVR6M4gfpHziZkfSMsoRxj1F8SPsc2vovXynOydNHlHYBRCqoZDBJo4mIu1-zAVjY39KWLG_m4tFYhRD&u=aHR0cHMlM2ElMmYlMmZvbmxpbmVsZWFybmluZy5obXMuaGFydmFyZC5lZHUlMmZobXglMmZobXgtcHJvLXBoYXJtYWNvbG9neS1jb3Vyc2VzJTJmJTNmbXNjbGtpZCUzZGYxOTMzZjI1ZTBkYzFkYmY1NmEyNWIzZmViM2M4ZWViJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkRHJ1ZyUyNTIwRGlzY292ZXJ5JTI1MjBhbmQlMjUyMERldmVsb3BtZW50JTI1MjAoUHJvKSUyNnV0bV90ZXJtJTNkZHJ1ZyUyNTIwZGlzY292ZXJ5JTI2dXRtX2NvbnRlbnQlM2REcnVnJTI1MjBEaXNjb3Zlcnk&rlid=f1933f25e0dc1dbf56a25b3feb3c8eeb).
+    . [Docking and simulation techniques have also been applied to analyze features of the active site](https://www.nature.com/articles/nrd1549/).
+    - [Molecular docking is a computational technique used to predict the intermolecular framework formed between a protein and a small molecule or a protein and protein](https://www.bing.com/aclk?ld=e8YI-mQyVzO8tsq2OuPhrpdjVUCUwkSHtfdV7QkboP51VBszLDqRh55vt8RAlQ36PIklFgUCcWiqERbgcO8_H7LW3ifqZdRI7VyawaJjBePY1zNjPKhwZ0Y1CSgG7c77SZl8gX1yhdFmN-h_V9lLnHx9PBIve_DwhSI8ejrgbiJSx9VUXc&u=aHR0cHMlM2ElMmYlMmZvbmxpbmVsZWFybmluZy5obXMuaGFydmFyZC5lZHUlMmZobXglMmZobXgtcHJvLXBoYXJtYWNvbG9neS1jb3Vyc2VzJTJmJTNmbXNjbGtpZCUzZGEwNzE2OWY5MGEwODFiNGMzOWZjMGRlMzA2NmQyMTc3JTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkRHJ1ZyUyNTIwRGlzY292ZXJ5JTI1MjBhbmQlMjUyMERldmVsb3BtZW50JTI1MjAoUHJvKSUyNnV0bV90ZXJtJTNkZHJ1ZyUyNTIwZGlzY292ZXJ5JTI2dXRtX2NvbnRlbnQlM2REcnVnJTI1MjBEaXNjb3Zlcnk&rlid=a07169f90a081b4c39fc0de3066d2177).
+    - [Structure-based virtual screening (VS) has been a staple for more than a decade now in drug discovery with its underlying computational technique, docking, extensively studied](https://bing.com/search?q=molecular+docking+and+virtual+screening+for+drug+discovery+key+points).
+    - [The idea behind VS is that a library of small compounds are docked into the binding pocket of a protein (e.g., receptor, enzyme), and among the top-ranked solutions per molecule, a choice is made on the fraction of compounds to be moved forward for testing toward hit identification](https://bing.com/search?q=molecular+docking+and+virtual+screening+for+drug+discovery+key+points).
+    - [The underlying principle of VS is that it differentiates between active and inactive compounds, thus reducing the number of molecules moving forward and possibly offering a complementary tool to high-throughput screening (HTS)](https://bing.com/search?q=molecular+docking+and+virtual+screening+for+drug+discovery+key+points).
+- Familiarize yourself with popular software, such as AutoDock Vina and Schrödinger Suite
+    - [AutoDock Vina is an open-source program for doing molecular docking. It was originally designed and implemented by Dr. Oleg Trott in the Molecular Graphics Lab at The Scripps Research Institute](http://vina.scripps.edu/). Schrödinger Suite is a powerful software package for computational chemistry and materials science. [It includes a range of tools for quantum chemistry, molecular dynamics, and structural biology](https://filecr.com/windows/schrodinger/).
+    
+    **AutoDock Vina:**
+    
+    - Open-source program for molecular docking
+    - Designed and implemented by Dr. Oleg Trott in the Molecular Graphics Lab at The Scripps Research Institute
+    - One of the fastest and most widely used open-source docking engines
+    - Based on a simple scoring function and rapid gradient-optimization conformational search
+    
+    **Schrödinger Suite:**
+    
+    - Powerful software package for computational chemistry and materials science
+    - Includes a range of tools for quantum chemistry, molecular dynamics, and structural biology
+    - User-friendly interface and availability on multiple platforms
+    - Used by industry leaders worldwide for drug discovery as well as materials science in fields such as aerospace and energy
+
+**Day 20:**
+
+- Explore reinforcement learning and its applications in drug discovery and protein folding
+    - Reinforcement learning is a type of machine learning that can be used to improve drug discovery and protein folding. [For example, deep generative networks can substantially reduce the laborious, long and costly process of drug discovery for a protein target](https://www.bing.com/aclk?ld=e8fMnZwB3EjEhhVPXctHg9rzVUCUwWK4VyBWjlxjLk-hZWiT6IiR5vVjVNn72y_FZ6Lx0Uor2gmYq0YoQFFAL6ysw3UFFjr_aRWhSYso8erd26irR2bV36BdLaFWyRFUw3VeUxi0w5c0h-z_815SGJpP5bU5hEoY3g42QB2sZSu27On-uk&u=aHR0cHMlM2ElMmYlMmZvbmxpbmVsZWFybmluZy5obXMuaGFydmFyZC5lZHUlMmZobXglMmZobXgtcHJvLXBoYXJtYWNvbG9neS1jb3Vyc2VzJTJmJTNmbXNjbGtpZCUzZGM3YmQ1NTk2MTU0MjEyZTc1NDI4MzE4YzE5OGU1ZTZlJTI2dXRtX3NvdXJjZSUzZGJpbmclMjZ1dG1fbWVkaXVtJTNkY3BjJTI2dXRtX2NhbXBhaWduJTNkRHJ1ZyUyNTIwRGlzY292ZXJ5JTI1MjBhbmQlMjUyMERldmVsb3BtZW50JTI1MjAoUHJvKSUyNnV0bV90ZXJtJTNkZHJ1ZyUyNTIwZGlzY292ZXJ5JTI2dXRtX2NvbnRlbnQlM2REcnVnJTI1MjBEaXNjb3Zlcnk&rlid=c7bd5596154212e75428318c198e5e6e). [Another approach is using an autonomous molecule generation model that requires only a target protein structure and directly modifies ligand structures to obtain higher predicted binding affinity for the target protein without any other training data](https://www.nature.com/articles/s41598-020-78537-2). [There’s also ReLeaSE which integrates two deep neural networks—generative and predictive—that are trained separately but are used jointly to generate novel targeted chemical libraries](https://www.science.org/doi/10.1126/sciadv.aap7885).
+- Learn about the AlphaFold algorithm by DeepMind
+    - [AlphaFold is a powerful AI algorithm developed by DeepMind that uses deep learning to predict a protein’s three-dimensional (3D) shape down to the width of an atom](https://bing.com/search?q=AlphaFold+algorithm+DeepMind). [It has predicted the structure of nearly all 20,000 proteins expressed by humans](https://www.theguardian.com/technology/2021/jul/22/ai-firm-deepmind-puts-database-building-blocks-life-human-protein-structure-free-online). [In an independent benchmark test that compared predictions to known structures, AlphaFold was able to predict the shape of a protein to a good standard 95% of time](https://www.theguardian.com/technology/2021/jul/22/ai-firm-deepmind-puts-database-building-blocks-life-human-protein-structure-free-online).
+
+**Day 21:**
+
+- Review Week 3 material and practice with real-life datasets or case studies
+
+**Week 4: Applying Bioinformatics to Disease Research**
+
+**Day 22:**
+
+- Understand the basics of genomics and personalized medicine
+    - [Genomics-based personalized medicine uses information about a person’s genes to prevent, diagnose, and treat disease](https://bing.com/search?q=genomics+and+personalized+medicine+basics). [It’s the customization of lifestyle (diet, exercise, medication, sleep, stress) based on the study of a person’s genome](https://keepmeprime.com/genomics-based-personalized-medicine/) . [Like fingerprints, everyone’s genetic make-up is unique](https://keepmeprime.com/genomics-based-personalized-medicine/) .
+- Learn about Genome-Wide Association Studies (GWAS) and their role in identifying disease-associated genes
+    - Genome-Wide Association Studies (GWAS) screen the genome for associations between millions of genetic variants and a disease or trait without any a priori hypothesis. [As such, GWASs may reveal new genes and pathways not previously implicated in the disease pathology](https://www.nature.com/articles/s41467-020-19653-5). [The goal of GWAS is to screen the entire genome of large numbers of individuals to look for associations between millions of genetic variants within those individuals and their disease outcomes or sometimes for associations between the variants and non-disease traits such as height](https://www.genome.gov/genetics-glossary/Genome-Wide-Association-Studies).
+
+**Day 23:**
+
+- Study epigenetics and its role in diseases (e.g., cancer, neurological disorders)
+    
+    Epigenetics is the regulation of gene expression through alterations in DNA or associated factors (other than the DNA sequence). These factors control the diverse manifestations of diseases. [Insights into epigenetic modification may lead to new therapies for common diseases](https://www.nejm.org/doi/full/10.1056/NEJMra1402513).
+    
+    [Epigenetic changes are responsible for human diseases, including Fragile X syndrome, Angelman’s syndrome, Prader-Willi syndrome, and various cancers](https://www.nature.com/scitable/content/epigenetic-diseases-and-their-causes-and-symptoms-37397/). [Host epigenetic factors have been shown to play an important role throughout the viral life cycle and have been implicated in the pathogenesis of several viral infections](https://www.frontiersin.org/research-topics/13478/the-role-of-epigenetics-in-infectious-diseases).
+    
+- Learn about epigenetic modifications and their impact on gene expression
+    - [Epigenetic modifications are heritable changes in gene expression patterns that do not involve changes to the underlying DNA sequence](https://www.sciencedirect.com/topics/biochemistry-genetics-and-molecular-biology/epigenetic-modification). These modifications can affect gene expression by turning genes “on” and "off". [One type of epigenetic change is DNA methylation, which works by adding a chemical group to DNA that blocks proteins from attaching to DNA and “reading” the gene](https://www.cdc.gov/genomics/disease/epigenetics.htm).
+
+**Day 24:**
+
+- Understand the role of the microbiome in human health and disease
+    
+    The microbiome is the collection of all microbes, such as bacteria, fungi, viruses, and their genes that naturally live on our bodies and inside us. [These microbiomes support and maintain your health but also have been linked to hundreds of ailments such as cancers, autoimmune diseases and cardiovascular diseases when disturbed](https://www.genome.gov/news/news-release/Microbes-in-us-and-their-role-in-human-health-and-disease).
+    
+    [Environmental exposures can also disrupt a person’s microbiome in ways that could increase the likelihood of developing conditions such as diabetes, obesity, cardiovascular diseases and neurological diseases](https://www.niehs.nih.gov/health/topics/science/microbiome/index.cfm).
+    
+- Learn about metagenomics and its applications in disease research
+    - [Metagenomics is a powerful tool that has been applied to identify unknown pathogens in outbreaks of disease](https://www.pharmiweb.com/article/applications-of-metagenomics-in-biotechnology-and-health-care). [It can also be used for discovery and detection of pathogens in clinical samples](https://www.pharmiweb.com/article/applications-of-metagenomics-in-biotechnology-and-health-care). [Applications of clinical metagenomics include infectious disease diagnostics for a variety of syndromes and sample types](https://www.nature.com/articles/s41576-019-0113-7).
+
+**Day 25:**
+
+- Dive into cancer genomics and the role of bioinformatics in understanding tumor biology
+    - [Cancer genomics is the study of cancer genomes to reveal abnormalities in genes that drive the development and growth of many types of cancer](https://www.cancer.gov/research/areas/genomics). [Bioinformatics plays a critical role in managing, storing, annotating, and reporting on data produced by sequencing platforms](https://www.dana-farber.org/research/departments-centers-and-labs/integrative-research-centers/center-for-cancer-genomics/bioinformatics/). [Computational methods are used to distill biologically meaningful information from cancer genome sequencing data](https://www.nature.com/articles/s41576-021-00431-y).
+    - [Cancer genomics is the study of cancer genomes to reveal abnormalities in genes that drive the development and growth of many types of cancer](https://www.cancer.gov/research/areas/genomics).
+    - [Bioinformatics plays a critical role in managing, storing, annotating, and reporting on data produced by sequencing platforms](https://www.cancer.gov/research/infrastructure/bioinformatics).
+    - [Computational methods are used to distill biologically meaningful information from cancer genome sequencing data](https://www.nature.com/articles/s41576-021-00431-y).
+    - [Popular tools include those that identify point mutations, copy number alterations, structural variations and mutational signatures in cancer genomes](https://www.nature.com/articles/s41576-021-00431-y).
+- Learn about The Cancer Genome Atlas (TCGA) and other cancer genomics resources
+    - [The Cancer Genome Atlas (TCGA) is a landmark cancer genomics program that molecularly characterized over 20,000 primary cancer and matched normal samples spanning 33 cancer types](https://www.cancer.gov/ccg/research/genome-sequencing/tcga). [This joint effort between NCI and the National Human Genome Research Institute began in 2006](https://www.cancer.gov/ccg/research/genome-sequencing/tcga). [The project aimed to catalogue genetic mutations responsible for cancer using genome sequencing and bioinformatics](https://en.wikipedia.org/wiki/The_Cancer_Genome_Atlas).
+    - **What is TCGA?** TCGA is a landmark cancer genomics program that molecularly characterized over 20,000 primary cancer and matched normal samples spanning 33 cancer types. This joint effort between NCI and the National Human Genome Research Institute began in 2006.
+    - **What was the aim of TCGA?** The project aimed to catalogue genetic mutations responsible for cancer using genome sequencing and bioinformatics.
+    - **How has TCGA transformed cancer research?** TCGA catalyzed considerable growth and advancement in the computational biology field by supporting the development of high-throughput genomic characterization technologies, generating a massive quantity of data, and fielding teams of researchers to analyze the data.
+
+**Day 26:**
+
+- Study the role of bioinformatics in infectious disease research (e.g., COVID-19, HIV)
+    - [Bioinformatics plays an integral role in combating infectious diseases by providing valuable insights into disease prevention, diagnosis, treatment and management](https://www.linkedin.com/pulse/role-bioinformatics-combating-diseases-venkatesh-chellappa). [It can be used to identify genes associated with a particular disease](https://www.linkedin.com/pulse/role-bioinformatics-combating-diseases-venkatesh-chellappa) [and has contributed immensely to our understanding of infectious diseases](https://www.frontiersin.org/articles/10.3389/fgene.2018.00575/full) .
+    - Bioinformatics uses advanced computing, mathematics, and different technological platforms to physically store, manage, analyze and understand biological data **[1](https://www.cancer.gov/research/infrastructure/bioinformatics)**. This data can provide insights into the biology of disease and expedite progress towards precision medicine **[2](https://bing.com/search?q=bioinformatics+disease+prevention+diagnosis+treatment)**. Precision medicine tailors prevention, diagnosis and treatment based on the molecular characteristics of a patient’s disease **[2](https://bing.com/search?q=bioinformatics+disease+prevention+diagnosis+treatment)**.
+    
+    For example, bioinformatics tools can help biologists explore the aetiology of neurodegenerative diseases **[3](https://www.hindawi.com/journals/bmri/si/712473/)** and some biomarkers can be utilized to promote drug repurposing as well as de novo drug design **[3](https://www.hindawi.com/journals/bmri/si/712473/)**. Pharmaceutical companies are also deploying bioinformatics in cancer treatment and diagnosis **[4](https://www.globenewswire.com/news-release/2023/03/21/2631157/28124/en/Bioinformatics-Services-Global-Market-Report-2022-Rising-Demand-for-Bioinformatics-Services-in-Computational-Biology.html)**.
+    
+- Learn about pathogen genomics and the use of bioinformatics for vaccine development
+    
+    In the field of infectious diseases, genomics can be a useful tool for guiding vaccine development. [Given the inevitability and increasing prevalence of antibiotic resistance, vaccines against pathogenic microbes can be even more valuable than antibiotics as a strategy to prevent serious or deadly infectious diseases](https://www.nature.com/articles/s41588-019-0441-8).
+    
+    [Genomics has catalyzed a shift in vaccine development towards sequence-based ‘Reverse Vaccinology’ approaches, which use high-throughput in silico screening of the entire genome of a pathogen to identify genes that encode proteins with the attributes of good vaccine targets](https://www.semanticscholar.org/paper/The-Impact-of-Bioinformatics-on-Vaccine-Design-and-Mar%C3%ADa-Arturo/bf4e29b5b8afe5aa7dbf091f11d488a9b34c7e90). [In conjunction with adjunct technologies such as bioinformatics, random mutagenesis, microarrays and proteomics, a systematic and comprehensive approach to identifying vaccine discovery can be undertaken](https://pubmed.ncbi.nlm.nih.gov/12176849/).
+    
+
+**Day 27:**
+
+- Explore the role of bioinformatics in rare disease research and diagnosis
+    - Bioinformatics can play a crucial role in rare disease research and diagnosis. Rare diseases pose unique problems that bioinformatics can help address. [Novel computational methodologies and approaches that use and combine exome and genome sequencing, combined with well-described phenotypic profiles from patients, can help understand the causes and mechanisms of rare diseases](https://network.febs.org/posts/bioinformatics-and-systems-biology-to-better-understand-rare-disease).
+    - 
+    
+    key points about the role of bioinformatics in rare disease research and diagnosis:
+    
+    1. **Understanding the causes and mechanisms of rare diseases**: Bioinformatics can help address unique problems posed by rare diseases. Novel computational methodologies and approaches that use and combine exome and genome sequencing, combined with well-described phenotypic profiles from patients, can help understand the causes and mechanisms of rare diseases .
+    2. **Streamlining diagnosis**: Whole-genome sequencing and phenotype data sharing can be introduced in a national health system to streamline diagnosis and to discover coding and non-coding variants that cause rare diseases.
+    3. **Integration of several data types**: A broad range of bioinformatic approaches applied to rare diseases can include novel methods to databases, servers, pipelines, integration of several data types, modeling and systems biology.
+- Learn about tools and resources for studying rare diseases, such as OMIM and Orphanet
+    - [OMIM (Online Mendelian Inheritance in Man) and Orphanet are two of the largest public resources for rare diseases](https://www.frontiersin.org/articles/10.3389/fimmu.2019.02475/full). [OMIM is a continuously updated catalog of human genes and genetic phenotypes of all known Mendelian disorders](https://www.frontiersin.org/articles/10.3389/fimmu.2019.02475/full) . [It is freely available and updated daily](https://www.omim.org/) . [Orphanet organizes diseases based on ORDO (Orphanet Rare Disease Ontology)](https://www.researchgate.net/figure/Summary-of-diseases-found-in-OMIM-and-Orphanet-databases-and-the-retained-diseases_tbl1_350970404) .
+    
+    **OMIM (Online Mendelian Inheritance in Man)**
+    
+    - A comprehensive and authoritative compendium of human genes and genetic phenotypes .
+    - Freely available and updated daily .
+    - Contains information on all known Mendelian disorders and over 15,000 genes .
+    - Content is generated using published peer-reviewed biomedical literature .
+    
+    **Orphanet**
+    
+    - One of the largest public resources for rare diseases .
+    - Organizes diseases based on ORDO (Orphanet Rare Disease Ontology) .
+
+**Day 28:**
+
+- Review Week 4 material and practice with real-life datasets or case studies
