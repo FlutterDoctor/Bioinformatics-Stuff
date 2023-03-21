@@ -5,7 +5,7 @@ Welcome to **My Bioinformatics Journey Repo**! This repository is a personal col
 
 ## Table of Contents
 - [Overview](#overview)
-- [Guides and Tutorials](#guides-and-tutorials)
+- [Guides and Tutorials](#gGuides-and-Tutorials)
 - [Jupyter Notebooks](#jupyter-notebooks)
 - [Data Analysis](#data-analysis)
 - [AI Algorithms](#ai-algorithms)
